@@ -1,0 +1,42 @@
+
+*{
+  padding: 0;
+  margin: 0;
+}
+header,footer{
+  
+  position: sticky;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+ 
+}
+footer{
+  width: 100vw;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+}
+
+#intro{
+  box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.372);
+  margin: 2px;
+  border: 2px solid rgba(0, 0, 0, 0.174);
+  display: flow-root;
+}
+#intro img{
+  float: left;
+  padding-top: 2px;
+}
+
+.blue{
+  background-color: rgb(84, 84, 243);
+  color: rgb(0, 0, 0);
+}
+
+.dark{
+  background-color: black;
+  color: white;
+}
