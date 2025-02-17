@@ -4,6 +4,7 @@ import { Header } from './components/Header'
 import { Footer } from './components/Footer'
 import { Main } from './components/Main'
 import { Statema } from './components/Statema'
+import Effect from './components/Effect'
 
 function App() {
  
@@ -28,6 +29,7 @@ function App() {
     <Main brand={bn} data={data}/>
     <Statema/>
      <Footer bn={bn} theme={theme}/>
+     <Effect/>
     </>
   )
 }
